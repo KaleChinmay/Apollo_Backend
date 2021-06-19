@@ -18,6 +18,7 @@ app.config['SECRET_KEY'] = ''
 
 @app.route("/",methods=['GET'])
 def hello():
+    print('test')
     return 'BackendService'
 
 
